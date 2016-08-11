@@ -1,4 +1,6 @@
 
 var skillsApp = angular.module('skillsApp',[
-	'skillsList'
+	'skillsList',
+  'portfolioCarousel',
+  'core'
 	]);

@@ -10,11 +10,29 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="app/app.module.js"></script>
+
+    <script type="text/javascript" src="app/core/core.module.js"></script>
+    <script type="text/javascript" src="app/core/trustedUrl/trustedUrl.filter.js"></script>
+
     <script type="text/javascript" src="app/skillsList/skillsList.module.js"></script>
     <script type="text/javascript" src="app/skillsList/skillsList.component.js"></script>
+    
+    <script type="text/javascript" src="app/portfolioCarousel/portfolioCarousel.module.js"></script>
+    <script type="text/javascript" src="app/portfolioCarousel/portfolioCarousel.component.js"></script>
+
+    <style type="text/css">
+        .iframe-apps-style{
+            width:100%;
+            height:600px;
+            margin:0;
+        }
+    </style>
+
+
   </head>
   <body class="container">
   <div class="col-md-12">
+    <portfolio-carousel></portfolio-carousel>
     <skills-list></skills-list>
   </div>
   
