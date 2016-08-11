@@ -9,4 +9,4 @@ angular.
 					self.skills = response.data;
 				});
 			}
-  });
+		});
