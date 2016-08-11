@@ -1,9 +1,7 @@
 angular.
-	module('skillsList').
+  module('skillsList').
 		component('skillsList',{
-
 			templateUrl: 'app/skillsList/skillsList.template.html',
-
 			controller: function phoneListController($http) {
 				var self = this;
 				self.query = 'webDev';
@@ -11,5 +9,4 @@ angular.
 					self.skills = response.data;
 				});
 			}
-
-		});
+  });
